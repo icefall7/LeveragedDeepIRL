@@ -342,8 +342,8 @@ def irl(structure, feature_matrix, n_actions, discount, transition_probability,
         # state.set_value(-1)
         accumulator(1)
         # temp11 = temp1.get_value()
-        if stat.get_value()>30:
-            stat.set_value(30)
+        if stat.get_value()>70:
+            stat.set_value(70)
         # print(stat.get_value())
         if (e % 5)==0:
             print("Mixed epoch:",e)

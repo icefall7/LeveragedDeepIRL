@@ -43,7 +43,7 @@ def main(grid_size, discount, n_objects, n_colours, n_trajectories, epochs,
     min_p_mixed = float('inf')
     min_p_good = float('inf')
 
-    for _ in range(5):
+    for _ in range(3):
         results_1 = []
         results_2 = []
         ########################## Good demo #######################################
@@ -73,10 +73,10 @@ def main(grid_size, discount, n_objects, n_colours, n_trajectories, epochs,
 
 
         #########################iterate diff sample size######################################
-        list1= [64]
+        list1= [8,16,32,64,128,256]
         # list1 = [n_trajectories]
         for n_trajectories in list1:
-            print( "current trajs size:", n_trajectories )
+            print( "\n\n\ncurrent trajs size:", n_trajectories )
             trajectories = ow.generate_trajectories(n_trajectories, trajectory_length, lambda s: policy[s])
             trajectories_bad = ow.generate_trajectories(n_trajectories, trajectory_length, lambda s: policy_bad[s])
 
@@ -127,11 +127,16 @@ def main(grid_size, discount, n_objects, n_colours, n_trajectories, epochs,
                 best_mix_sample_size = n_trajectories
                 min_p_mixed = diff1_p
 
-            if (min_p_good >= diff2_p):
                 best_good_policy = recover_policy_good
                 best_good_reward = r1
                 best_good_value = value_good
                 best_good_sample_size = n_trajectories
+
+                best_ground_r = ground_r
+                best_ground_policy = policy
+                best_ground_value = value_orginal
+
+            if (min_p_good >= diff2_p):
                 min_p_good = diff2_p
 
 
@@ -166,11 +171,13 @@ def main(grid_size, discount, n_objects, n_colours, n_trajectories, epochs,
     plt.legend([lin1, lin2], ['Mixed Demos', 'Only good Demos'])
 
 
-    print (policy)
-    print (best_mix_policy)
+    # print (best_ground_policy)
+    # print (best_mix_policy)
+    # print (best_ground_policy - best_mix_policy)
+    # print ((float)(np.sum((recover_policy - policy) != 0)))
     plt.figure()
     plt.subplot(3, 3, 1)
-    plt.pcolor(ground_r.reshape((grid_size, grid_size)), cmap='jet')
+    plt.pcolor(best_ground_r.reshape((grid_size, grid_size)), cmap='jet')
     plt.colorbar()
     plt.title("True reward")
     plt.subplot(3, 3, 2)
@@ -183,7 +190,7 @@ def main(grid_size, discount, n_objects, n_colours, n_trajectories, epochs,
     plt.title("Reward-Good")
 
     plt.subplot(3, 3, 4)
-    plt.pcolor(policy.reshape((grid_size, grid_size)), cmap='jet')
+    plt.pcolor(best_ground_policy.reshape((grid_size, grid_size)), cmap='jet')
     plt.colorbar()
     plt.title("Optimal Policy")
     plt.subplot(3, 3, 5)
@@ -196,7 +203,7 @@ def main(grid_size, discount, n_objects, n_colours, n_trajectories, epochs,
     plt.title("Policy-Good")
 
     plt.subplot(3, 3, 7)
-    plt.pcolor(value_orginal.reshape((grid_size, grid_size)), cmap='jet')
+    plt.pcolor(best_ground_value.reshape((grid_size, grid_size)), cmap='jet')
     plt.colorbar()
     plt.title("Expected Value")
     plt.subplot(3, 3, 8)
@@ -212,6 +219,6 @@ def main(grid_size, discount, n_objects, n_colours, n_trajectories, epochs,
 
 
 if __name__ == '__main__':
-    main(5, 0.90, 10, 3, 256, 100, 0.01, (3, 4))
+    main(10, 0.90, 10, 3, 256, 100, 0.01, (3, 4))
 ## grid_size, discount, n_objects, n_colours, n_trajectories, epochs,
 ##         learning_rate, structure

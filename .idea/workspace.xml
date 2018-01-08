@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fce16998-f314-4dd0-9157-0152186a1b0b" name="Default" comment="" />
+    <list default="true" id="fce16998-f314-4dd0-9157-0152186a1b0b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/deep_maxent_gnbobject.py" afterPath="$PROJECT_DIR$/examples/deep_maxent_gnbobject.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/irl/deep_maxent_mixdemo.py" afterPath="$PROJECT_DIR$/examples/irl/deep_maxent_mixdemo.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +17,7 @@
     <SUITE FILE_PATH="coverage/max_entropy$deep_maxent_objectworld.coverage" NAME="deep_maxent_objectworld Coverage Results" MODIFIED="1492110845768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
     <SUITE FILE_PATH="coverage/max_entropy$deep_maxent_gnbobject.coverage" NAME="deep_maxent_gnbobject Coverage Results" MODIFIED="1492136589201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
     <SUITE FILE_PATH="coverage/LeveragedDeepIRL_master$maxent_objectworld.coverage" NAME="maxent_objectworld Coverage Results" MODIFIED="1515276303556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
-    <SUITE FILE_PATH="coverage/LeveragedDeepIRL_master$deep_maxent_gnbobject.coverage" NAME="deep_maxent_gnbobject Coverage Results" MODIFIED="1515379264419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/LeveragedDeepIRL_master$deep_maxent_gnbobject.coverage" NAME="deep_maxent_gnbobject Coverage Results" MODIFIED="1515385076395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
     <SUITE FILE_PATH="coverage/LeveragedDeepIRL_master$deep_goodnbad.coverage" NAME="deep_goodnbad Coverage Results" MODIFIED="1515276648297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
     <SUITE FILE_PATH="coverage/max_entropy$deep_goodnbad.coverage" NAME="deep_goodnbad Coverage Results" MODIFIED="1492138212376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
     <SUITE FILE_PATH="coverage/max_entropy$deepmax_cross.coverage" NAME="deepmax_cross Coverage Results" MODIFIED="1491962863597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
@@ -52,8 +55,8 @@
       <file leaf-file-name="deep_maxent_gnbobject.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/deep_maxent_gnbobject.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="180" column="53" lean-forward="false" selection-start-line="180" selection-start-column="53" selection-end-line="180" selection-end-column="53" />
+            <state relative-caret-position="405">
+              <caret line="221" column="33" lean-forward="false" selection-start-line="221" selection-start-column="33" selection-end-line="221" selection-end-column="33" />
               <folding>
                 <element signature="e#130#148#0" expanded="true" />
               </folding>
@@ -86,7 +89,7 @@
       <file leaf-file-name="maxent_objectworld.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/maxent_objectworld.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="184">
               <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
               <folding />
             </state>
@@ -96,8 +99,8 @@
       <file leaf-file-name="deep_maxent_mixdemo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/irl/deep_maxent_mixdemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1066">
-              <caret line="192" column="42" lean-forward="false" selection-start-line="192" selection-start-column="42" selection-end-line="192" selection-end-column="42" />
+            <state relative-caret-position="360">
+              <caret line="345" column="29" lean-forward="false" selection-start-line="345" selection-start-column="29" selection-end-line="345" selection-end-column="29" />
               <folding>
                 <element signature="e#212#241#0" expanded="true" />
               </folding>
@@ -175,13 +178,13 @@
         <option value="$PROJECT_DIR$/examples/deep_maxent_objectworld.py" />
         <option value="$PROJECT_DIR$/examples/irl/mdp/gridworld.py" />
         <option value="$PROJECT_DIR$/examples/deepmax_cross.py" />
-        <option value="$PROJECT_DIR$/examples/irl/deep_maxent_mixdemo.py" />
         <option value="$PROJECT_DIR$/examples/irl/deep_maxent.py" />
         <option value="$PROJECT_DIR$/examples/maxent_objectworld.py" />
         <option value="$PROJECT_DIR$/examples/deep_goodnbad.py" />
         <option value="$PROJECT_DIR$/examples/irl/mdp/objectworld.py" />
         <option value="$PROJECT_DIR$/examples/irl/mdp/crossworld.py" />
         <option value="$PROJECT_DIR$/examples/deep_maxent_gnbobject.py" />
+        <option value="$PROJECT_DIR$/examples/irl/deep_maxent_mixdemo.py" />
       </list>
     </option>
   </component>
@@ -604,7 +607,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22269504" sideWeight="0.63075656" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16595745" sideWeight="0.63075656" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1003,24 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/maxent_objectworld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/irl/deep_maxent_mixdemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1066">
-          <caret line="192" column="42" lean-forward="false" selection-start-line="192" selection-start-column="42" selection-end-line="192" selection-end-column="42" />
-          <folding>
-            <element signature="e#212#241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/irl/deep_maxent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1039,10 +1024,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/maxent_objectworld.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/irl/deep_maxent_mixdemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="345" column="29" lean-forward="false" selection-start-line="345" selection-start-column="29" selection-end-line="345" selection-end-column="29" />
+          <folding>
+            <element signature="e#212#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/deep_maxent_gnbobject.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="180" column="53" lean-forward="false" selection-start-line="180" selection-start-column="53" selection-end-line="180" selection-end-column="53" />
+        <state relative-caret-position="405">
+          <caret line="221" column="33" lean-forward="false" selection-start-line="221" selection-start-column="33" selection-end-line="221" selection-end-column="33" />
           <folding>
             <element signature="e#130#148#0" expanded="true" />
           </folding>
